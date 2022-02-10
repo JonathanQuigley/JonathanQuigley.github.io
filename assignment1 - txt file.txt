@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assignment1</title>
+        <script src="https://kit.fontawesome.com/3e4dae1781.js" crossorigin="anonymous"></script>
+    </head>
+</html>
+<style>
+    video{
+
+        height: auto;
+        width: 100%;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        position: fixed;
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu{
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 24px;
+    }
+    .center{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 48px;
+    }
+</style>
+
+<body>
+    <video class = "set" autoplay muted loop>
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    <div class = "menu">
+        <ul><i class="fa-brands fa-fly"></i> About me</ul>
+        <ul><i class="fa-solid fa-battery-three-quarters"></i> Resume</ul>
+        <ul><i class="fa-solid fa-biohazard"></i> Hobbies</ul>
+        <ul><i class="fa-solid fa-bicycle"></i> Work</ul>
+    </div>
+    <div class="center">
+        <p>Jonathan Quigley</p>
+    </div>
+</body>
